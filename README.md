@@ -1,6 +1,8 @@
 # xkcd
-Program napisany w języku Python pobierający obrazki i tworzący plik HTML i ich zawartościami
+Program napisany w języku Python pobierający numery komiksów i tworzący plik HTML z komiksami
 
-Zawarte moduły:
+W programie zawarto moduły:
 - requests
 - BeautifulSoup
+
+

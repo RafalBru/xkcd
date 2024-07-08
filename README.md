@@ -9,5 +9,5 @@ Aby uruchomić program należy:
 1. sklonować repozytorium (git clone https://github.com/RafalBru/xkcd)
 2. w sklonowanym repozytorium otworzyć konsolę (PPM + Open in Terminal)
 3. wydać polecenie "python .\program.py"
-4. strona zostanie wygenerowana w pobranym repozytorium
+4. program w repozytorium wygeneruje plik HTML z wybranymi komiksami w repozytorium
 

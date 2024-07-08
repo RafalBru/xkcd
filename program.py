@@ -19,7 +19,7 @@ for number in numbers:
     images.append(image)
     titles.append(title)
 
-with open("./komiksy-kopia.html", 'r') as file:
+with open("./template.html", 'r') as file:
     content = file.read()
 
 soup = BeautifulSoup(content,'html.parser')
@@ -53,4 +53,4 @@ for number, image_url, image_title in zip(numbers,images,titles):
 with open('comics.html', 'w') as file:
     file.write(soup.prettify())
 
-print("Strona z wybranymi jest gotowa. Otworz plik comics.html w przegladarce.")
+print("Strona z wybranymi numerami komiksow jest gotowa. Otworz plik comics.html w przegladarce.")

@@ -1,9 +1,10 @@
 # xkcd
 Program napisany w języku Python pobierający numery komiksów z pliku i tworzący plik HTML z komiksami.
 
-Przed uruchomieniem sprawdzić czy na komputerze są zainstalowane moduły:
-- requests
+Przed uruchomieniem sprawdzić czy na komputerze są zainstalowane moduły (pip show <nazwa_modułu>):
+- requests 
 - BeautifulSoup
+W razie braku któregoś z modułów zastosować polecenie pip install <nazwa_modułu>.
 
 Aby uruchomić program należy:
 1. sklonować repozytorium (git clone https://github.com/RafalBru/xkcd)
